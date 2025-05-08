@@ -1,0 +1,19 @@
+// SILVA ZINZU ANDRIK LEONARDO
+// crear una lista con 5 enteros e imprimir lista
+#include <stdio.h>
+
+void main ()
+{
+    int list[5] = {57, 73, 24, 12, 20};
+    int i;
+    printf("los numeros de la lista son:");
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d, ", list[i]);
+    }
+
+    printf("\n");
+
+    
+    
+}
